@@ -23,13 +23,13 @@ Validation split:
 
 “I set aside 10% of the training data as validation data. The model doesn’t train on this—it only tests on it after each epoch. This helps me see if the model is generalizing well or overfitting.”
 
-🚀 Step 3: Convert to TFLite
-👉 Why TensorFlow Lite?
+Step 3: Convert to TFLite
+ Why TensorFlow Lite?
 Microcontrollers (like ESP32) can’t run heavy TensorFlow models.
 TensorFlow Lite converts the model into a lightweight format with:
-✅ Smaller size
-✅ Faster inference
-✅ Lower memory usage
+ Smaller size
+ Faster inference
+ Lower memory usage
 
 linked in
 “Converted my predictive maintenance neural network into a TensorFlow Lite model optimized for microcontrollers.
